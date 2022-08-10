@@ -1,0 +1,16 @@
+.colorTooltip {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 1em;
+
+	padding: 3em;
+	width: min-content;
+	border-radius: 10px;
+	background-color: #C77FE6;
+	user-select: none;
+	
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}

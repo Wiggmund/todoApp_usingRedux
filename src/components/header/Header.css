@@ -1,0 +1,33 @@
+.panel {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 1em;
+
+	padding: 1em;
+	font-size: 1.1em;
+}
+
+.todosInfo,
+.controlButtons {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.statusFilters,
+.colorFilters {
+	display: grid;
+	gap: 1em;
+}
+
+.statusFilters {
+	grid-template-columns: repeat(2, min-content);
+}
+.colorFilters {
+	grid-template-columns: repeat(3, min-content);
+}
+
+header h1 {
+	text-align: center;
+}

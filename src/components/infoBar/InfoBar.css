@@ -1,0 +1,18 @@
+.infoBar__item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.infoBar__item > * {
+	margin: 0;
+	padding: 0;
+}
+
+.infoBar__item:nth-child(2) > * {
+	color: blue;
+}
+
+.infoBar__item:nth-child(3) {
+	color: green;
+}

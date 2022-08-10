@@ -1,0 +1,39 @@
+.todo {
+	display: grid;
+	gap: 1em;
+	grid-template-columns: min-content 1fr repeat(3, min-content);
+	align-items: center;
+	position: relative;
+}
+
+
+.todo__text {
+	font-size: 2em;
+	color: black;
+	border-radius: 10px;
+	padding-left: 10px;
+	background-color: white;
+	border: none;
+	border-bottom: 2px solid rgba(211, 39, 191, 0.5);
+}
+
+.todo__text:hover,
+.todo__text:disabled:hover {
+	border: 2px solid rgba(211, 39, 191, 0.5);
+}
+
+.todo__icon {
+	height: 25px;
+	width: 25px;
+	cursor: pointer;
+}
+
+.todo__icon:hover {
+	outline-offset: 5px;
+	outline: 2px solid rgba(211, 39, 191, 0.5);
+}
+
+.todo__finished {
+	background-color: #BFDBF7;
+	text-decoration: line-through;
+}
